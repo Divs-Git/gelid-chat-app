@@ -1,0 +1,17 @@
+{
+  "name": "gelid-chat-app",
+  "version": "1.0.0",
+  "description": "A Real-time chat application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Divyansh Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
